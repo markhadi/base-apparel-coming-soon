@@ -222,7 +222,7 @@ form button:hover {
     width: 10rem;
   }
 
-  form .form-input picture {
+  form .form-input span {
     height: 5.8rem;
     right: 11.6rem;
   }
