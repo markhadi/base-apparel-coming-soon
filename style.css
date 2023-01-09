@@ -157,6 +157,10 @@ form button:hover {
 }
 
 @media screen and (min-width: 1440px) {
+  body {
+    background-image: url("./images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+  }
   main {
     max-width: 100%;
     display: grid;
