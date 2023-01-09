@@ -26,7 +26,7 @@
             media="(min-width:1440px)"
             srcset="./images/hero-desktop.jpg"
           />
-          <img src="./images/hero-mobile.jpg" alt="model Base Apparel" />
+          <img src="./images/hero-mobile.jpg" alt="" aria-hidden="true" />
         </picture>
       </div>
       <div class="content">
@@ -44,20 +44,20 @@
               placeholder="Email Address"
               autocomplete="off"
             />
-            <picture>
+            <span>
               <img
                 src="./images/icon-error.svg"
                 id="img-alert"
                 alt=""
                 aria-hidden="true"
               />
-            </picture>
+            </span>
           </div>
           <button type="submit" aria-label="Submit">
             <img src="./images/icon-arrow.svg" alt="" aria-hidden="true" />
           </button>
+          <span class="alert">Please provide a valid email</span>
         </form>
-        <span class="alert">Please provide a valid email</span>
       </div>
     </main>
 
